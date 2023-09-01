@@ -1,0 +1,168 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css");
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&family=Montserrat+Alternates&display=swap");
+.counter-container {
+  width: 60%;
+  margin: 0 auto;
+  padding: 3% 0 0 0;
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  font-family: "Montserrat Alternates", sans-serif;
+}
+.counter-container p {
+  font-size: 50px;
+}
+.counter-container .btn {
+  margin: 10px;
+  padding: 10px;
+}
+
+@media screen and (max-width: 1024px) {
+  .counter-container {
+    width: 100%;
+  }
+}
+.review-content {
+  width: 60%;
+  margin: 0 auto;
+  padding: 3% 0 0 0;
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  font-family: "Montserrat Alternates", sans-serif;
+}
+.review-content p {
+  font-size: 50px;
+}
+.review-content .btn {
+  margin: 10px;
+  padding: 10px;
+}
+
+.footer-content {
+  border-top: 1px solid #000000;
+  padding: 10px;
+  width: 80%;
+  margin: 0 auto;
+  font-size: 11px;
+  text-align: center;
+}
+
+.string-container {
+  width: 60%;
+  margin: 0 auto;
+  padding: 3% 0 0 0;
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+}
+.string-container p {
+  font-size: 50px;
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: #f4f4f4;
+  font-family: "Montserrat", sans-serif;
+  font-family: "Montserrat Alternates", sans-serif;
+  line-height: 1.6;
+}
+
+.header-container {
+  background-color: #0e6cff;
+  padding: 10px;
+  color: #f4f4f4;
+}
+.header-container .header-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 90%;
+  margin: 0 auto;
+}
+.header-container .header-content .app-mobile-nav-btn {
+  display: none;
+}
+.header-container .header-content ul {
+  display: flex;
+  list-style-type: none;
+}
+.header-container .header-content ul li {
+  padding: 10px;
+}
+.header-container .header-content ul li a {
+  text-decoration: none;
+  color: #f4f4f4;
+}
+.header-container .header-content ul li a.active {
+  color: #ff8700;
+}
+.header-container .header-content ul li a:hover {
+  color: #ff8700;
+}
+
+.books-container {
+  width: 100%;
+  padding: 10px;
+}
+.books-container .books-content {
+  margin: 0 auto;
+  padding: 10px;
+  width: 90%;
+}
+.books-container fieldset {
+  margin: 5px 0 10px 0;
+}
+.books-container small {
+  color: red;
+  font-size: 11px;
+  transition: all 0.5s;
+}
+.books-container .annotation-off-display {
+  display: none;
+}
+.books-container .annotation-in-display {
+  display: block;
+}
+
+@media screen and (max-width: 1024px) {
+  .app-mobile-nav-btn {
+    display: block !important;
+    position: fixed;
+    top: 20px;
+    right: 40px;
+  }
+  .header-content {
+    width: 100%;
+    padding: 10px;
+    display: grid !important;
+    justify-content: unset !important;
+  }
+  .header-content .app-nav {
+    display: none;
+  }
+  .header-content .app-nav ul {
+    display: grid;
+    padding: 0;
+    margin: 0;
+  }
+  .header-content .app-nav ul li {
+    padding: 10px 0 10px 0;
+  }
+  .header-content .bar {
+    display: block;
+    width: 25px;
+    height: 2px;
+    background-color: #f4f4f4;
+    margin: 4px;
+  }
+  .for-table {
+    width: 100%;
+    overflow-x: auto;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */

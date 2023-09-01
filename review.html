@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payspace | Review</title>
+
+    <!-- styling -->
+    <link rel="stylesheet" type="text/css" href="./css/style.css" />
+
+</head>
+
+<body>
+    <header>
+        <div class="header-container">
+            <div class="header-content">
+                <div class="app-name">
+                    <h6>PaySpace App</h6>
+                </div>
+                <div class="app-mobile-nav-btn">
+                    <div class="bar"></div>
+                    <div class="bar"></div>
+                    <div class="bar"></div>
+                </div>
+                <div class="app-nav">
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="vue.html">Vue Component</a></li>
+                        <li><a href="string-reversing.html">String Reversing</a></li>
+                        <li><a class="active" href="review.html">Code Review</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </header>
+    <section>
+        <div class="review-container">
+            <div class="review-content">
+                <ul class="items-list">
+                    <% items.forEach((item)=> { %>
+                        <li>
+                            <%= item.name %>
+                        </li>
+                        <% }); %>
+                </ul>
+
+                <ul>
+                    <li>I looked at this for a while, it looks okay - this EJS.</li>
+                    <li>I've got room to learn here.</li>
+                </ul>
+            </div>
+        </div>
+        <br />
+    </section>
+    <footer>
+        <div class="footer-container">
+            <div class="footer-content">
+                <p>PaySpace App Assessment | 2023 All Rights Reserved</p>
+                </p>
+                <p>Designed by Treasure</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- scripting -->
+    <script type="text/javascript" src="./js/main.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"
+        integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+</body>
+
+</html>

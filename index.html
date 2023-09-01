@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payspace | Home</title>
+
+    <!-- styling -->
+    <link rel="stylesheet" type="text/css" href="./css/style.css" />
+
+</head>
+
+<body>
+    <header>
+        <div class="header-container">
+            <div class="header-content">
+                <div class="app-name">
+                    <h6>PaySpace App</h6>
+                </div>
+                <div class="app-mobile-nav-btn">
+                    <div class="bar"></div>
+                    <div class="bar"></div>
+                    <div class="bar"></div>
+                </div>
+                <div class="app-nav">
+                    <ul>
+                        <li><a class="active" href="index.html">Home</a></li>
+                        <li><a href="vue.html">Vue Component</a></li>
+                        <li><a href="string-reversing.html">String Reversing</a></li>
+                        <li><a href="review.html">Code Review</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </header>
+    <section>
+        <div class="books-container">
+            <div class="books-content">
+                <small class="annotation-off-display">You need atleast three characters to start filtering</small>
+                <fieldset class="form-group">
+                    <input id="filter-input" type="text" class="form-control"
+                        placeholder="filter books by title or author" />
+                </fieldset>
+                <div class="for-table">
+                    <table class="books-display table">
+                        <thead>
+                            <tr>
+                                <th>#</th>
+                                <th id="title" class="sorting" data-sort="desc">Title <i class="bi bi-chevron-up"></i>
+                                </th>
+                                <th id="author" class="sorting" data-sort="desc">Author <i class="bi bi-chevron-up"></i>
+                                </th>
+                                <th>Year</th>
+                            </tr>
+                        </thead>
+                        <tbody></tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="footer-container">
+            <div class="footer-content">
+                <p>PaySpace App Assessment | 2023 All Rights Reserved</p>
+                </p>
+                <p>Designed by Treasure</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- scripting -->
+    <script type="text/javascript" src="./js/main.js"></script>
+    <script type="text/javascript" src="./js/index.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"
+        integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+</body>
+
+</html>
